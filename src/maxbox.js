@@ -36,7 +36,7 @@
         // close button
         closeElement.className = 'maxbox__close';
         closeElement.style.color = element.getAttribute('data-maxbox-color') || '#eee';
-        closeElement.style.fontFamily = element.getAttribute('data-image-font') || 'Helvetica,Arial,sans-serif';
+        closeElement.style.fontFamily = element.getAttribute('data-maxbox-font') || 'Helvetica,Arial,sans-serif';
         closeElement.innerHTML = 'X';
         closeElement.addEventListener('click', function() { // wire up close button
             document.body.removeChild(containerElement);

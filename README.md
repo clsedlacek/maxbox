@@ -6,7 +6,7 @@ A small vanilla JavaScript lightbox with easy per-image configuration.
 ## Setup
 
 - In your HTML file's `<head>` tag, add `<link rel="stylesheet" type="text/css" href="maxbox/maxbox.min.css">`
-- At the end of your HTML file's `<body>` tag, add `<script type="text/javascript" src="maxbox/maxbox.min.js">`
+- At the end of your HTML file's `<body>` tag, add `<script type="text/javascript" src="maxbox/maxbox.min.js"></script>`
 - You can use any element to trigger maxbox - just add a `data-maxbox-src="path-to-img.png"` attribute
 
 ### Example
